@@ -1,0 +1,472 @@
+/*******************************
+= 1. Global CSS / Normalization
+= 2. Header Section
+= 3. Banner Section
+= 4. Demo App Section
+= 5. About App Section
+= 6. Feature Section
+= 7. Gallary Section
+= 8. Testimonial Section
+= 9. Download App Section
+= 10. Footer Section
+********************************/
+/* Global CSS / Normalization */
+
+/* Google Fonts Montserrat*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.img-center{
+    display: block;
+    margin: 0 auto;
+}
+/* 2. Header Section */
+header{
+    background-color: #0a2345;
+    padding: 50px 0px;
+}
+.humberg{
+    color: #2a5ea4;
+    float: right;
+    padding: 25px 0px;
+}
+/* 3. Banner Section */
+.banner{
+    text-align: center;
+    padding: 50px 0px;
+    color: #fff;
+    background-color: #0a2345;
+}
+.banner h1{
+    padding: 14px 0px;
+}
+.banner h1 span{
+    color: #2a5da3;
+}
+.banner p{
+    margin-bottom: 80px;
+    color: #2e66b2;
+    font-weight: 400;
+}
+.banner .btn-banner{
+    display: block;
+    margin: 0 auto;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid #2a5da3;
+    -webkit-transition: ease 0.8s all;
+    -moz-transition: ease 0.8s all;
+    -o-transition: ease 0.8s all;
+    transition: ease 0.8s all;
+}
+.banner .btn-banner:hover{
+    cursor: pointer;
+    background-color: #ff3334;
+    -webkit-transform: scale(1.1,1.1);
+    -moz-transform: scale(1.1,1.1);
+    -o-transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);
+}
+/* 4. Demo App Section */
+.demo-app{
+    background-color: #0a2345;
+    padding: 150px 0px;
+    background-image: url(../img/demo_background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 40%;
+}
+.demo-app .demo-img{
+    width: 72%;
+}
+.demo-middle{
+    margin-top: -55px;
+    width: 90%;
+}
+.demo-app img{
+    transition: ease 0.4s all;
+}
+.demo-app img:hover{
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+}
+/* 5. About App Section */
+.about-app{
+    padding: 50px 0px;
+    background-color: #0a2345;
+    color: #fff;
+    position: relative;
+}
+.about-app img{
+    position: absolute;
+    top: -36%;
+    left: -21%;
+    width: 100%;
+}
+.about-app h1{
+    padding-bottom: 20px;
+}
+.about-app h1 span{
+    color: #2a5da3;
+}
+.about-app p{
+    color: #66778e;
+    padding-bottom: 20px;
+}
+.about-app .btn-about{
+    display: block;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid #2a5da3;
+    -webkit-transition: ease 0.8s all;
+    -moz-transition: ease 0.8s all;
+    -o-transition: ease 0.8s all;
+    transition: ease 0.8s all;
+}
+.about-app .btn-about:hover{
+    cursor: pointer;
+    background-color: #ff3334;
+    -webkit-transform: scale(1.1,1.1);
+    -moz-transform: scale(1.1,1.1);
+    -o-transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);
+}
+/* 6. Feature Section */
+.app-features{
+    padding: 50px 0px;
+    background-color: #081830; 
+}
+.app-features h1{
+    /* padding: 10px 0px 25px 0px; */
+    padding-bottom: 70px;
+    color: #fff;
+}
+.app-features .middle{
+    position: absolute;
+    width: 185%;
+    top: -32%;
+    left: -45%;
+}
+.feature-des{
+    padding: 5px 0px;
+    position: relative;
+}
+.feature-des h4{
+    font-size: 1.4rem;
+    color: #fff;
+}
+.feature-des p{
+    font-size: 0.9em;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 1.4px;
+    padding-bottom: 65px;
+    color: #989ca1;
+}
+.feature-des img{
+    padding: 20px 0px;
+}
+.feature-des .icon{
+    width: 10%;
+}
+/* 7. Gallary Section */
+.gallary{
+    background-color: #081830;
+    padding: 150px 0px;
+    position: relative;
+}
+.description h4{
+    font-size: 1.4rem;
+    color: #fff;
+    padding: 25px 0px;
+}
+.description p{
+    color: #989ca1;
+    font-size: 0.9em;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.4px;
+}
+.gallary .icon{
+    width: 7%;
+}
+.screen{
+    position: absolute;
+    right: -15.5%;
+    left: 11%;
+    top: -12%;
+}
+/* 8. Testimonial Section */
+.testimonial{
+    padding: 50px 0px;
+    background-color: #071529;
+}
+.testimonial .no-padding{
+    padding: 0;
+    width: 100%;
+}
+.carousel-indicators li {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+.carousel-item ul li {
+    list-style: none;
+    display: inline;
+    padding: 0px 5px;
+    color: #989ca1;
+}
+.carousel-caption{
+    top: 30%;
+}
+.carousel-caption h5 {
+    width: 100%;
+    font-size: 1.5em;
+    line-height: 1.6em;
+    font-weight: 100;
+    color: #989ca1;
+    padding-bottom: 36px;
+    letter-spacing: 0.1em;
+}
+.carousel-caption .designation{
+    color: #213a61 !important;
+    font-weight: 400;
+}
+/* 9. Download App Section */
+.download-app{
+    background-color: #030810;
+    padding: 100px 0px;
+    text-align: center;
+}
+.download-app h1{
+    color: #fff;
+    padding: 20px 0px;
+    font-size: 1.4rem;
+}
+.download-app p {
+    width: 58%;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    letter-spacing: 1pt;
+    line-height: 25pt;
+    color: #fff;
+    font-size: 0.9rem;
+}
+.download-app img{
+    max-width: 60%;
+    padding-bottom: 100px;
+}
+.download-app .btn{
+    display: block;
+    margin: auto;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid #2a5da3;
+    -webkit-transition: ease 0.8s all;
+    -moz-transition: ease 0.8s all;
+    -o-transition: ease 0.8s all;
+    transition: ease 0.8s all;
+    position: relative;
+    z-index: 1;
+}
+.download-app .btn:hover{
+    background-color: transparent;
+}
+.download-app .btn, .btn:after{
+    -webkit-transition: ease 1s all;
+    -moz-transition: ease 1s all;
+    -o-transition: ease 1s all;
+    transition: ease 1s all;
+}
+.download-app .btn:after{
+    content: "";
+    position: absolute;
+    background-color: #ff3334;
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 50px;
+    z-index: -1;
+}
+.download-app .btn:hover:after{
+    width: 100%;
+}
+/* 10. Footer Section */
+footer{
+    background-color: #030810;
+    padding: 50px 0px 30px;
+    color: #14396a;
+}
+footer ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+}
+footer p{
+    float: right;
+}
+/* Media Query Start */
+/* Notebook Device Meida Query */
+@media (min-width: 768px) and (max-width: 992px){
+    .about-app img {
+        top: 18%;
+    }
+    .app-features .middle {
+        top: -22%;
+    }
+    .gallary {
+        padding: 98px 0px;
+    }
+    .screen {
+        position: absolute;
+        right: -5.5%;
+        left: 2%;
+        top: 11%;
+    }
+    .w-100 {
+        width: 250%!important;
+    }
+    .download-app h1 {
+        font-size: 2.4rem;
+    }
+    .download-app p {
+        width: 75%;
+        font-size: 1.4rem;
+    }
+}
+/* Tablet Device Media Query */
+@media(min-width: 500px) and (max-width: 768px){
+
+}
+/* Mobile Device Media Query */
+@media screen and (max-width: 500px){
+    .banner h1{
+        font-size: 1.5em;
+    }
+    .banner p {
+        width: 78%;
+        margin: 0 auto 50px;
+    }
+    .demo-app {
+        padding: 50px 0px;
+    }
+    .demo-middle {
+        width: 72%;
+    }
+    .img-center {
+        padding-bottom: 87px;
+    }
+    .about-app h1 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .about-app .btn-about {
+        margin: 0 auto;
+    }
+    /* app feature */
+    .app-features h1 {
+        padding-bottom: 0px;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .feature-des .icon {
+        display: block;
+        margin: 0 auto;
+    }
+    .feature-des h4 {
+        text-align: center;
+    }
+    .feature-des p {
+        padding-bottom: 0px;
+        text-align: center;
+    }
+    .app-features .middle {
+        position: relative;
+        width: 100%;
+        top: -20%;
+        left: -1%;
+    }
+    .app-features .right-side{
+        margin-top: -200px;
+    }
+    /* app gallary section */
+    .gallary {
+        padding: 0px 0px 10px 0px;
+    }
+    .gallary .icon {
+        display: block;
+        margin: 0 auto;
+    }
+    .description h4 {
+        text-align: center;
+    }
+    .description p {
+        text-align: center;
+    }
+    .screen {
+        position: relative;
+        left: 3.6%;
+        top: 0%;
+    }
+    /* about app section */
+    .about-app {
+        padding: 0px 0px 32px 0px;
+    }
+    .about-app img {
+        position: relative;
+        top: -13%;
+        left: -4%;
+        width: 100%;
+    }
+    .about-app p {
+        color: #66778e;
+        padding-bottom: 6px;
+        text-align: center;
+        font-size: 0.9em;
+        letter-spacing: 0.1em;
+        line-height: 1.8em;
+    }
+    /* testimonial section */
+    .w-100 {
+        height: 400px !important;
+    }
+    .carousel-caption h5 {
+        margin-top: -53px;
+        font-size: 1em;
+    }
+    .carousel-item ul li {
+        padding: 0;
+    }
+    .testimonial {
+        padding: 0;
+    }
+    /* download app start */
+    .download-app {
+        padding: 12px 0px;
+    }
+    .download-app h1 {
+        padding: 20px 0px 8px 0px;
+        font-size: 1rem;
+    }
+    .download-app img {
+        padding-bottom: 45px;
+    }
+    .download-app p {
+        width: 100%;
+        padding-bottom: 33px;
+    }
+    /* footer section */
+    footer p{
+        float: none;
+        margin-left: 32px;
+    }
+
+}
